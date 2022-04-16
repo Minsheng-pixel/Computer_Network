@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete element from project &apos;pa2_BasicAlgo&apos;&#x0A;- Original project: &apos;pa2_BasicAlgo&apos;&#x0A;- Original element: &apos;pa2_BasicAlgo.SCCStarter.java&apos;" description="Delete element" element1="/src&lt;pa2_BasicAlgo{SCCStarter.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1605986466592" subPackages="false" version="1.0"/>
-</session>

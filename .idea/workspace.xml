@@ -1,7 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef93a101-18a9-4a39-abca-2abd86f40322" name="Default Changelist" comment="" />
+    <list default="true" id="ef93a101-18a9-4a39-abca-2abd86f40322" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HW1/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/README_concatenate.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/README_relay.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/README_rpc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/concatenation_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/concatenation_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/receiver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/relay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/rpc_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/rpc_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/sender.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/tes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/testcases_asg1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/aimd_host.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/congestion_collapse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/ewma.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/packet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/simulator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/sliding_window_host.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/stop_and_wait_host.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/timeout_calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/clique.graph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/dv_router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/line.graph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/ls_router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/midterm.graph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/ring.graph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/simulator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/te.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/triangle.graph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/hash_tables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4extra_credit/fifo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4extra_credit/pim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW5/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW5/diffie_hellman_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW5/diffie_hellman_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW5/ssl_client_localhost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW5/ssl_server_localhost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW5/ssl_web_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.bak_0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.bak_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.bak_2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.bak_3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.bak_4.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.bak_5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.bak_6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.bak_7.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.bak_8.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.bak_9.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/22/e001e6b978b7001c176dca6b710bb084" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/52/a095c49682b7001c176dca6b710bb084" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/69/3088bcbc7db7001c176dca6b710bb084" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/6d/40a461e678b7001c176dca6b710bb084" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/6f/20128e5882b7001c176dca6b710bb084" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a1/00c1efa378b7001c176dca6b710bb084" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f5/200b4a147bb7001c176dca6b710bb084" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/pa2_BasicAlgo/.indexes/e4/92/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/pa2_BasicAlgo/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/pa2_BasicAlgo/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/17.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ant.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.css.swt.theme.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.workbench.renderers.swt.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.help.base.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.debug.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.junit.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.navigator.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/DFSStarter.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/SCCStarter.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/leetcode.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/minHeap (1).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/minHeap.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/test.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/twothree_2 (1).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/twothree_2.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.ui.workbench.swt/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.help.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.help.ui/scope_sets/Default.pref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.help.ui/scope_sets/java_45_editor_45_content_32_Assist.hist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/1138958137.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/776558778.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.debug.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2020/10/42/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2020/10/42/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2020/9/40/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2020/9/40/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/pa2_BasicAlgo/2020/10/42/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/pa2_BasicAlgo/2020/10/42/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/pa2_BasicAlgo/2020/11/45/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/pa2_BasicAlgo/2020/11/45/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/pa2_BasicAlgo/2020/11/47/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/pa2_BasicAlgo/2020/11/47/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_0.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/46e4f398b503b5bb05869dd7d693b23a/_0.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/46e4f398b503b5bb05869dd7d693b23a/segments.gen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/46e4f398b503b5bb05869dd7d693b23a/segments_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/46e4f398b503b5bb05869dd7d693b23a/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_0.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.16.0.20200318-1040.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.intro/introstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/version.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pa2_BasicAlgo/DFSInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pa2_BasicAlgo/DFSStarter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pa2_BasicAlgo/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pa2_BasicAlgo/InternalNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pa2_BasicAlgo/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pa2_BasicAlgo/LeafNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pa2_BasicAlgo/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pa2_BasicAlgo/TwoThreeTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pa2_BasicAlgo/W.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pa2_BasicAlgo/Warrior.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pa2_BasicAlgo/WorkSpace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pa2_BasicAlgo/minHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pa2_BasicAlgo/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pa2_BasicAlgo/twothree_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pa6/Tiling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pq5/DFSInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pq5/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pq5/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/pq5/SCCStarter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/bin/test/leetcode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/hs_err_pid58905.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/src/pa2_BasicAlgo/DFSStarter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/src/pa2_BasicAlgo/minHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/src/pa2_BasicAlgo/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/src/pa2_BasicAlgo/twothree_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/src/pa6/Tiling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/src/pq5/SCCStarter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2_BasicAlgo/src/test/leetcode.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +205,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1yVItOhtHCNW5JA1cLYoimtC7sf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,9 +228,9 @@
       <recent name="$PROJECT_DIR$/HW1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/HW4extra_credit" />
       <recent name="$PROJECT_DIR$/HW4" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Python.tes">
@@ -163,5 +358,16 @@
       <updated>1632330542515</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
